@@ -45,7 +45,7 @@ function getLanguageDirection() {
   }
 }
 
-function getLanguageList() {
+/*function getLanguageList() {
   var languages = TAPi18n.getLanguages();
   var languageList = _.map(languages, function(value, key) {
     var selected = "";
@@ -72,7 +72,7 @@ function getLanguageList() {
   }
 
   return languageList;
-}
+}*/
 
 function getCurrentGame(){
   var gameID = Session.get("gameID");
@@ -240,9 +240,10 @@ Template.main.helpers({
   }
 });
 
-Template.footer.helpers({
+/*Template.footer.helpers({
   languages: getLanguageList
 })
+
 
 Template.footer.events({
   'click .btn-set-language': function (event) {
@@ -256,6 +257,7 @@ Template.footer.events({
     GAnalytics.event("language-actions", "set-language-" + language);
   }
 })
+*/
 
 Template.startMenu.events({
   'click #btn-new-game': function () {
