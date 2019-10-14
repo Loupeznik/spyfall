@@ -1,28 +1,28 @@
 {
     "ui": {
-        "welcome to spyfall": "Welcome to Spyfall",
-        "new game": "New Game",
-        "join game": "Join Game",
-        "waiting for players": "Waiting For Players...",
-        "access code": "Access code",
-        "join my spyfall game": "Join my Spyfall game!",
-        "start game": "Start Game",
-        "leave game": "Leave Game",
-        "show hide": "show/hide",
-        "you are the spy": "You are the spy!",
-        "you are not the spy": "You are <strong>not</strong> the spy!",
-        "the location": "The location",
-        "your role": "Your role",
-        "players": "Players",
+        "welcome to spyfall": "Vítejte ve Spyfall",
+        "new game": "Nová hra",
+        "join game": "Připojit se do hry",
+        "waiting for players": "Čekám na hráče",
+        "access code": "Přístupový kód",
+        "join my spyfall game": "Přidej se do hry",
+        "start game": "Zapnout hru",
+        "leave game": "Opustit hru",
+        "show hide": "ukázat/schovat",
+        "you are the spy": "Jsi špión!",
+        "you are not the spy": "<strong>Nejsi</strong> špión!",
+        "the location": "Lokace",
+        "your role": "Tvoje role",
+        "players": "Hráči",
         "first": "1<span>st</span>",
-        "location reference": "Location Reference",
-        "end game": "End Game",
-        "enter your name": "Enter your name",
-        "create game": "Create",
-        "back": "Back",
-        "enter an access code": "Enter an access code",
-        "invalid access code": "Sorry, no game was found with the access code you provided!",
-        "join": "Join",
+        "location reference": "Seznam lokací",
+        "end game": "Ukončit hru",
+        "enter your name": "Zadej jméno",
+        "create game": "Vytvořit",
+        "back": "Zpět",
+        "enter an access code": "Zadej přístupový kód",
+        "invalid access code": "Sorry, ale tvůj přístupový kód je invalidní. Buď jsi debil nebo hra s tímto kódem neexistuje",
+        "join": "Přidat se",
         "footer": "<a href='http://international.hobbyworld.ru/catalog/25-spyfall/' target='_blank'>Spyfall</a> designed by Alexandr Ushan, published by <a href='http://international.hobbyworld.ru/' target='_blank'>Hobby World</a>"
     },
     "locations": {
@@ -53,7 +53,7 @@
         "supermarket": "Supermarket",
         "theater": "Theater",
         "university": "University",
-        "world war ii squad": "__World War II Squad__",
+        "world war ii squad": "World War II Squad",
         "race track": "Race Track",
         "art museum": "Art Museum",
         "vineyard": "Vineyard",
@@ -74,6 +74,30 @@
         "gas station": "Gas Station",
         "harbor docks": "Harbor Docks",
         "sightseeing bus": "Sightseeing Bus",
+        "petrska_kabinet" : "Petrsčin kabinet",
+        "svestkarna" : "Švestkárna",
+        "koncentrak" : "Koncentrační tábor",
+        "ghetto" : "Ghetto",
+        "tibetsky_chram" : "Tibetský chrám",
+        "vezeni" : "Vězení",
+        "helikoptera" : "Helikoptéra",
+        "torpedoborec" : "Torpédoborec",
+        "prazsky_hrad" : "Pražský hrad",
+        "tramvaj" : "Tramvaj",
+        "mesic" : "Měsíc",
+        "detske_hriste" : "Dětské hřiště",
+        "petrska_sklep" : "Petrsčin sklep",
+        "metal_koncert" : "Metalový koncert",
+        "lanzhot" : "Komunistická ubytovna v Lanžhotě",
+        "nadrazi" : "Vlakové nádraží",
+        "vyzkumna_stanice" : "Hlubokomořská výzkumná stanice",
+        "bordel" : "Bordel",
+        "opera" : "Opera", 
+        "puph" : "Párty u paní Holoubkové",
+        "dzihadisti" : "Skupina džihádistů",
+        "mesita" : "Mešita",
+        "autobazar" : "Autobazar",
+        "nakupni_centrum" : "Nákupní centrum",
         "roles": {
             "airplane": {
                 "first class passenger": "First Class Passenger",
@@ -561,6 +585,178 @@
                 "tour guide": "Tour Guide",
                 "photographer": "Photographer",
                 "lost person": "Lost Person"
+            },
+            "petrska_kabinet" : {
+                "petrska" : "Petrska",
+                "svarcka" : "Švarcka",
+                "student" : "Student němčiny",
+                "jiri" : "Jiří s měkkým",
+                "peta" : "Péťa Solanských",
+                "aah" : "Matě-aah"
+            },
+            "svestkarna" : {
+                "sef" : "Velitel švestek",
+                "zadrzeny" : "Zadržený",
+                "svestka" : "Švestka",
+                "konzultant" : "Konzultant",
+                "kid" : "Ztracené dítě",
+                "recepcni" : "Recepční"
+            },
+            "koncentrak" : {
+                "sef" : "Velitel tábora",
+                "zid" : "Žid",
+                "esesak" : "Esesák",
+                "mengele" : "Doktor Mengele",
+                "cigan" : "Cikán",
+                "strazny" : "Strážný"
+            },
+            "ghetto" : {
+                "sef" : "Šéf gangu",
+                "gangster" : "Gangster",
+                "obyvatel" : "Obyvatel ghetta",
+                "kolemjdouci" : "Náhodný kolemjdoucí",
+                "dealer" : "Dealer"
+            },
+            "tibetsky_chram" : {
+                "mnich" : "Mnich",
+                "sileny_marek" : "Šílený Marek",
+                "socha_buddha" : "Socha Buddhy",
+                "sef" : "Vrchní mnich",
+                "turista" : "Turista",
+                "vojak" : "Čínský voják"
+            },
+            "vezeni" : {
+                "vezen" : "Vězeň",
+                "bachar" : "Bachař",
+                "sef" : "Vedoucí věznice",
+                "navstevnik" : "Návštěvník",
+                "vrah" : "Vrah",
+                "ridic" : "Řidič transportu"
+            },
+            "helikoptera" : {
+                "pilot" : "Pilot",
+                "kopilot" : "Kopilot",
+                "strelec" : "Střelec",
+                "prepravovany" : "Přepravovaný"
+            },
+            "torpedoborec" : {
+                "kapitan" : "Kapitán",
+                "dustojnik" : "1. důstojník",
+                "kormidelnik" : "Kormidelník",
+                "mechanik" : "Mechanik",
+                "dustojnik_zbranovy" : "Zbraňový důstojník",
+                "namornik" : "Námořník"
+            },
+            "prazsky_hrad" : {
+                "milos" : "Míla Zemanů",
+                "straz" : "Hradní stráž",
+                "ovco" : "Jirka Ovčáčků",
+                "turista" : "Turista",
+                "uklizecka" : "Uklizečka",
+                "asistent" : "Asistent"
+            },
+            "tramvaj" : {
+                "ridic" : "Řidič tramvaje",
+                "cestujici" : "Klidný cestující",
+                "kid" : "Uřvané dítě",
+                "pobuda" : "Smradlavý pobuda",
+                "neplatic" : "Neplatič",
+                "kontrolor" : "Kontrolor"
+            },
+            "mesic" : {
+                "astronaut" : "Astronaut",
+                "et" : "Mimozemšťan",
+                "pilot" : "Pilot raketoplánu"
+            },
+            "detske_hriste" : {
+                "dite_houpacka" : "Dítě na houpačce",
+                "dite_ubrecene" : "Ubrečené dítě",
+                "agresor" : "Agresor",
+                "chuligan" : "Chuligán",
+                "matka" : "Matka",
+                "otec" : "Otec"
+            },
+            "petrska_sklep" : {
+                "student" : "Nezvedný student",
+                "obet" : "Petrsčina oběť",
+                "stroj" : "Šukací stroj"
+            },
+            "metal_koncert" : {
+                "kuk" : "Filip Kuk",
+                "zpevak" : "Zpěvák",
+                "kytarista" : "Kytarista",
+                "fanousek" : "Fanoušek",
+                "security" : "Security",
+                "poradatel" : "Pořadatel"
+            },
+            "lanzhot" : {
+                "zilien" : "Žilién",
+                "domaci" : "Paní domácí",
+                "evana" : "Evana",
+                "cankyr" : "Standa Čankýř",
+                "turista" : "Turista",
+                "domaci_manzel" : "Manžel paní domácí"
+            },
+            "nadrazi" : {
+                "cestujici_zmateny" : "Zmatený cestující",
+                "prodejce" : "Prodejce jízdenek",
+                "pruvodci" : "Nevrlý průvodčí",
+                "cestujici" : "Cestující",
+                "duchodce" : "Důchodce na výletě",
+                "udrzbar" : "Údržbář"
+            },
+            "vyzkumna_stanice" : {
+                "vedec" : "Vědec",
+                "sef" : "Velitel stanice",
+                "komunikacni_expert" : "Komunikační expert",
+                "zdravotnik" : "Zdravotník",
+                "ridic" : "Řidič ponorky",
+                "technik" : "Technik"
+            },
+            "bordel" : {
+                "kurva" : "Kurva",
+                "skopec" : "Skopčí",
+                "navstevnik" : "Návštěvník",
+                "barman" : "Barman",
+                "boss" : "Boss",
+                "vyhazovac" : "Vyhazovač"
+            },
+            "opera" : {
+                "pevec" : "Operní pěvec",
+                "divak" : "Divák",
+                "divak_spici" : "Spící divák",
+                "vip" : "VIP",
+                "tanecnik" : "Tanečník",
+                "udrzbar" : "Údržbář"
+            },
+            "puph" : {
+                "opilec" : "Opilec"
+            },
+            "dzihadisti" : {
+                "muhammad" : "Muhammad",
+                "abdul" : "Abdul",
+                "ahmet" : "Ahmet",
+                "hamza" : "Hamza",
+                "mahmoud" : "Mahmoud",
+                "hassan" : "Hassan"
+            },
+            "mesita" : {
+                "verici" : "Věřící",
+                "dzihadista" : "Džihádista",
+                "imam" : "Imám",
+                "udrzbar" : "Údržbář"
+            },
+            "autobazar" : {
+                "prodejce" : "Prodejce",
+                "zakaznik" : "Zákazník",
+                "kolemjdouci" : "Náhodný kolemjdoucí",
+                "zlodej" : "Zloděj",
+                "opravar" : "Opravář"
+            },
+            "nakupni_centrum" : {
+                "prodavacka" : "Prodavačka",
+                "dodavatel" : "Dodavatel",
+                "brigadnik" : "Brigádník"
             }
         }
     }
