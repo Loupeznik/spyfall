@@ -1,0 +1,763 @@
+{
+    "ui": {
+        "welcome to spyfall": "Vítejte ve Spyfall",
+        "new game": "Nová hra",
+        "join game": "Připojit se do hry",
+        "waiting for players": "Čekám na hráče",
+        "access code": "Přístupový kód",
+        "join my spyfall game": "Přidej se do hry",
+        "start game": "Zapnout hru",
+        "leave game": "Opustit hru",
+        "show hide": "ukázat/schovat",
+        "you are the spy": "Jsi špión!",
+        "you are not the spy": "<strong>Nejsi</strong> špión!",
+        "the location": "Lokace",
+        "your role": "Tvoje role",
+        "players": "Hráči",
+        "first": "1<span>st</span>",
+        "location reference": "Seznam lokací",
+        "end game": "Ukončit hru",
+        "enter your name": "Zadej jméno",
+        "create game": "Vytvořit",
+        "back": "Zpět",
+        "enter an access code": "Zadej přístupový kód",
+        "invalid access code": "Sorry, ale tvůj přístupový kód je invalidní. Buď jsi debil nebo hra s tímto kódem neexistuje",
+        "join": "Přidat se",
+        "footer": "<a href='http://international.hobbyworld.ru/catalog/25-spyfall/' target='_blank'>Spyfall</a> designed by Alexandr Ushan, published by <a href='http://international.hobbyworld.ru/' target='_blank'>Hobby World</a>"
+    },
+    "locations": {
+        "airplane": "Airplane",
+        "bank": "Bank",
+        "beach": "Beach",
+        "cathedral": "Cathedral",
+        "circus tent": "Circus Tent",
+        "corporate party": "Corporate Party",
+        "crusader army": "Crusader Army",
+        "casino": "Casino",
+        "day spa": "Day Spa",
+        "embassy": "Embassy",
+        "hospital": "Hospital",
+        "hotel": "Hotel",
+        "military base": "Military Base",
+        "movie studio": "Movie Studio",
+        "ocean liner": "Ocean Liner",
+        "passenger train": "Passenger Train",
+        "pirate ship": "Pirate Ship",
+        "polar station": "Polar Station",
+        "police station": "Police Station",
+        "restaurant": "Restaurant",
+        "school": "School",
+        "service station": "Service Station",
+        "space station": "Space Station",
+        "submarine": "Submarine",
+        "supermarket": "Supermarket",
+        "theater": "Theater",
+        "university": "University",
+        "world war ii squad": "World War II Squad",
+        "race track": "Race Track",
+        "art museum": "Art Museum",
+        "vineyard": "Vineyard",
+        "baseball stadium": "Baseball Stadium",
+        "library": "Library",
+        "cat show": "Cat Show",
+        "retirement home": "Retirement Home",
+        "jail": "Jail",
+        "construction site": "Construction Site",
+        "the united nations": "The United Nations",
+        "candy factory": "Candy Factory",
+        "subway": "Subway",
+        "coal mine": "Coal Mine",
+        "cemetery": "Cemetery",
+        "rock concert": "Rock Concert",
+        "jazz club": "Jazz Club",
+        "wedding": "Wedding",
+        "gas station": "Gas Station",
+        "harbor docks": "Harbor Docks",
+        "sightseeing bus": "Sightseeing Bus",
+        "petrska_kabinet" : "Petrsčin kabinet",
+        "svestkarna" : "Švestkárna",
+        "koncentrak" : "Koncentrační tábor",
+        "ghetto" : "Ghetto",
+        "tibetsky_chram" : "Tibetský chrám",
+        "vezeni" : "Vězení",
+        "helikoptera" : "Helikoptéra",
+        "torpedoborec" : "Torpédoborec",
+        "prazsky_hrad" : "Pražský hrad",
+        "tramvaj" : "Tramvaj",
+        "mesic" : "Měsíc",
+        "detske_hriste" : "Dětské hřiště",
+        "petrska_sklep" : "Petrsčin sklep",
+        "metal_koncert" : "Metalový koncert",
+        "lanzhot" : "Komunistická ubytovna v Lanžhotě",
+        "nadrazi" : "Vlakové nádraží",
+        "vyzkumna_stanice" : "Hlubokomořská výzkumná stanice",
+        "bordel" : "Bordel",
+        "opera" : "Opera", 
+        "puph" : "Párty u paní Holoubkové",
+        "dzihadisti" : "Skupina džihádistů",
+        "mesita" : "Mešita",
+        "autobazar" : "Autobazar",
+        "nakupni_centrum" : "Nákupní centrum",
+        "roles": {
+            "airplane": {
+                "first class passenger": "First Class Passenger",
+                "air marshall": "Air Marshal",
+                "mechanic": "Mechanic",
+                "air hostess": "Air Hostess",
+                "copilot": "Co-Pilot",
+                "captain": "Captain",
+                "economy class passenger": "Economy Class Passenger"
+            },
+            "bank": {
+                "armored car driver": "Armored Car Driver",
+                "manager": "Manager",
+                "consultant": "Consultant",
+                "robber": "Robber",
+                "security guard": "Security Guard",
+                "teller": "Teller",
+                "customer": "Customer"
+            },
+            "beach": {
+                "beach waitress": "Beach Waitress",
+                "kite surfer": "Kite Surfer",
+                "lifeguard": "Lifeguard",
+                "thief": "Thief",
+                "beach photographer": "Beach Photographer",
+                "ice cream truck driver": "Ice Cream Truck Driver",
+                "beach goer": "Beach Goer"
+            },
+            "cathedral": {
+                "priest": "Priest",
+                "beggar": "Beggar",
+                "sinner": "Sinner",
+                "tourist": "Tourist",
+                "sponsor": "Sponsor",
+                "chorister": "Chorister",
+                "parishioner": "Parishioner"
+            },
+            "cemetery": {
+                "priest": "Priest",
+                "grave robber": "Grave Robber",
+                "poet": "Poet",
+                "mourning person": "Mourning Person",
+                "gatekeeper": "Gatekeeper",
+                "dead person": "Dead Person",
+                "relative": "Relative",
+                "flower seller": "Flower Seller",
+                "grave digger": "Grave Digger",
+                "gothic girl": "Gothic Girl"
+            },
+            "circus tent": {
+                "acrobat": "Acrobat",
+                "animal trainer": "Animal Trainer",
+                "magician": "Magician",
+                "fire eater": "Fire Eater",
+                "clown": "Clown",
+                "juggler": "Juggler",
+                "visitor": "Visitor"
+            },
+            "corporate party": {
+                "entertainer": "Entertainer",
+                "manager": "Manager",
+                "unwanted guest": "Unwanted Guest",
+                "owner": "Owner",
+                "secretary": "Secretary",
+                "delivery boy": "Delivery Boy",
+                "accountant": "Accountant"
+            },
+            "crusader army": {
+                "monk": "Monk",
+                "imprisoned saracen": "Imprisoned Saracen",
+                "servant": "Servant",
+                "bishop": "Bishop",
+                "squire": "Squire",
+                "archer": "Archer",
+                "knight": "Knight"
+            },
+            "casino": {
+                "bartender": "Bartender",
+                "head security guard": "Head Security Guard",
+                "bouncer": "Bouncer",
+                "manager": "Manager",
+                "hustler": "Hustler",
+                "dealer": "Dealer",
+                "gambler": "Gambler"
+            },
+            "day spa": {
+                "stylist": "Stylist",
+                "masseuse": "Masseuse",
+                "manicurist": "Manicurist",
+                "makeup artist": "Makeup Artist",
+                "dermatologist": "Dermatologist",
+                "beautician": "Beautician",
+                "customer": "Customer"
+            },
+            "embassy": {
+                "security guard": "Security Guard",
+                "secretary": "Secretary",
+                "ambassador": "Ambassador",
+                "tourist": "Tourist",
+                "refugee": "Refugee",
+                "diplomat": "Diplomat",
+                "government official": "Government Official"
+            },
+            "hospital": {
+                "nurse": "Nurse",
+                "doctor": "Doctor",
+                "anesthesiologist": "Anesthesiologist",
+                "intern": "Intern",
+                "therapist": "Therapist",
+                "surgeon": "Surgeon",
+                "patient": "Patient"
+            },
+            "hotel": {
+                "doorman": "Doorman",
+                "security guard": "Security Guard",
+                "manager": "Manager",
+                "housekeeper": "Housekeeper",
+                "bartender": "Bartender",
+                "bellman": "Bellman",
+                "customer": "Customer"
+            },
+            "military base": {
+                "deserter": "Deserter",
+                "colonel": "Colonel",
+                "medic": "Medic",
+                "sniper": "Sniper",
+                "officer": "Officer",
+                "tank engineer": "Tank Engineer",
+                "soldier": "Soldier"
+            },
+            "movie studio": {
+                "stunt man": "Stunt Man",
+                "sound engineer": "Sound Engineer",
+                "camera man": "Camera Man",
+                "director": "Director",
+                "costume artist": "Costume Artist",
+                "producer": "Producer",
+                "actor": "Actor"
+            },
+            "ocean liner": {
+                "cook": "Cook",
+                "captain": "Captain",
+                "bartender": "Bartender",
+                "musician": "Musician",
+                "waiter": "Waiter",
+                "mechanic": "Mechanic",
+                "rich passenger": "Rich Passenger"
+            },
+            "passenger train": {
+                "mechanic": "Mechanic",
+                "border patrol": "Border Patrol",
+                "train attendant": "Train Attendant",
+                "restaurant chef": "Restaurant Chef",
+                "train driver": "Train Driver",
+                "stoker": "Stoker",
+                "passenger": "Passenger"
+            },
+            "pirate ship": {
+                "cook": "Cook",
+                "slave": "Slave",
+                "cannoneer": "Cannoneer",
+                "tied up prisoner": "Tied Up Prisoner",
+                "cabin boy": "Cabin Boy",
+                "brave captain": "Brave Captain",
+                "sailor": "Sailor"
+            },
+            "polar station": {
+                "medic": "Medic",
+                "expedition leader": "Expedition Leader",
+                "biologist": "Biologist",
+                "radioman": "Radioman",
+                "hydrologist": "Hydrologist",
+                "meteorologist": "Meteorologist",
+                "geologist": "Geologist"
+            },
+            "police station": {
+                "detective": "Detective",
+                "lawyer": "Lawyer",
+                "journalist": "Journalist",
+                "criminalist": "Criminalist",
+                "archivist": "Archivist",
+                "criminal": "Criminal",
+                "patrol officer": "Patrol Officer"
+            },
+            "restaurant": {
+                "musician": "Musician",
+                "bouncer": "Bouncer",
+                "hostess": "Hostess",
+                "head chef": "Head Chef",
+                "food critic": "Food Critic",
+                "waiter": "Waiter",
+                "customer": "Customer"
+            },
+            "school": {
+                "gym teacher": "Gym Teacher",
+                "principal": "Principal",
+                "security guard": "Security Guard",
+                "janitor": "Janitor",
+                "cafeteria lady": "Cafeteria Lady",
+                "maintenance man": "Maintenance Man",
+                "student": "Student"
+            },
+            "service station": {
+                "manager": "Manager",
+                "tire specialist": "Tire Specialist",
+                "biker": "Biker",
+                "car owner": "Car Owner",
+                "car wash operator": "Car Wash Operator",
+                "electrician": "Electrician",
+                "auto mechanic": "Auto Mechanic"
+            },
+            "space station": {
+                "engineer": "Engineer",
+                "alien": "Alien",
+                "pilot": "Pilot",
+                "commander": "Commander",
+                "scientist": "Scientist",
+                "doctor": "Doctor",
+                "space tourist": "Space Tourist"
+            },
+            "submarine": {
+                "cook": "Cook",
+                "commander": "Commander",
+                "sonar technician": "Sonar Technician",
+                "electronics technician": "Electronics Technician",
+                "radioman": "Radioman",
+                "navigator": "Navigator",
+                "sailor": "Sailor"
+            },
+            "supermarket": {
+                "cashier": "Cashier",
+                "butcher": "Butcher",
+                "janitor": "Janitor",
+                "security guard": "Security Guard",
+                "food sample demonstrator": "Food Sample Demonstrator",
+                "shelf stocker": "Shelf Stocker",
+                "customer": "Customer"
+            },
+            "theater": {
+                "coat check lady": "Coat Check Lady",
+                "prompter": "Prompter",
+                "cashier": "Cashier",
+                "director": "Director",
+                "actor": "Actor",
+                "crew man": "Crew Man",
+                "audience member": "Audience Member"
+            },
+            "university": {
+                "graduate student": "Graduate Student",
+                "professor": "Professor",
+                "dean": "Dean",
+                "psychologist": "Psychologist",
+                "maintenance man": "Maintenance Man",
+                "janitor": "Janitor",
+                "student": "Student"
+            },
+            "world war ii squad": {
+                "resistance fighter": "Resistance Fighter",
+                "radioman": "Radioman",
+                "scout": "Scout",
+                "medic": "Medic",
+                "cook": "Cook",
+                "imprisoned nazi": "Imprisoned Nazi",
+                "soldier": "Soldier"
+            },
+            "race track": {
+                "team owner": "Team Owner",
+                "driver": "Driver",
+                "engineer": "Engineer",
+                "spectator": "Spectator",
+                "referee": "Referee",
+                "mechanic": "Mechanic",
+                "food vendor": "Food Vendor",
+                "commentator": "Commentator",
+                "bookmaker": "Bookmaker"
+            },
+            "art museum": {
+                "ticket seller": "Ticket Seller",
+                "student": "Student",
+                "visitor": "Visitor",
+                "teacher": "Teacher",
+                "security guard": "Security Guard",
+                "painter": "Painter",
+                "art collector": "Art Collector",
+                "art critic": "Art Critic",
+                "photographer": "Photographer",
+                "tourist": "Tourist"
+            },
+            "vineyard": {
+                "gardener": "Gardener",
+                "gourmet guide": "Gourmet Guide",
+                "winemaker": "Winemaker",
+                "exporter": "Exporter",
+                "butler": "Butler",
+                "wine taster": "Wine Taster",
+                "sommelier": "Sommelier",
+                "owner": "Owner",
+                "vineyard manager": "Vineyard Manager",
+                "oenologist": "Oenologist"
+            },
+            "baseball stadium": {
+                "pitcher": "Pitcher",
+                "catcher": "Catcher",
+                "commentator": "Commentator",
+                "spectator": "Spectator",
+                "security guard": "Security Guard",
+                "umpire": "Umpire",
+                "food vendor": "Food Vendor",
+                "manager": "Manager",
+                "first baseman": "First Baseman",
+                "shortstop": "Shortstop",
+                "outfielder": "Outfielder",
+                "second baseman": "Second Baseman",
+                "third baseman": "Third Baseman",
+                "mascot": "Mascot",
+                "team owner": "Team Owner"
+            },
+            "library": {
+                "old man": "Old Man",
+                "journalist": "Journalist",
+                "author": "Author",
+                "volunteer": "Volunteer",
+                "know-it-all": "Know-It-All",
+                "student": "Student",
+                "librarian": "Librarian",
+                "loudmouth": "Loudmouth",
+                "book fanatic": "Book Fanatic",
+                "nerd": "Nerd"
+            },
+            "cat show": {
+                "judge": "Judge",
+                "cat-handler": "Cat-Handler",
+                "veterinarian": "Veterinarian",
+                "security guard": "Security Guard",
+                "cat trainer": "Cat Trainer",
+                "crazy cat lady": "Crazy Cat Lady",
+                "animal lover": "Animal Lover",
+                "cat owner": "Cat Owner",
+                "cat": "Cat"
+            },
+            "retirement home": {
+                "relative": "Relative",
+                "cribbage player": "Cribbage Player",
+                "old person": "Old Person",
+                "nurse": "Nurse",
+                "janitor": "Janitor",
+                "cook": "Cook",
+                "blind person": "Blind Person",
+                "psychologist": "Psychologist"
+            },
+            "jail": {
+                "wrongly accused man": "Wrongly Accused Man",
+                "cctv operator": "CCTV Operator",
+                "guard": "Guard",
+                "visitor": "Visitor",
+                "lawyer": "Lawyer",
+                "janitor": "Janitor",
+                "jailkeeper": "Jailkeeper",
+                "criminal": "Criminal",
+                "correctional officer": "Correctional Officer",
+                "maniac": "Maniac"
+            },
+            "construction site": {
+                "free-roaming toddler": "Free-Roaming Toddler",
+                "contractor": "Contractor",
+                "crane driver": "Crane Driver",
+                "trespasser": "Trespasser",
+                "safety officer": "Safety Officer",
+                "electrician": "Electrician",
+                "engineer": "Engineer",
+                "architect": "Architect",
+                "construction worker": "Construction Worker"
+            },
+            "the united nations": {
+                "diplomat": "Diplomat",
+                "interpreter": "Interpreter",
+                "blowhard": "Blowhard",
+                "tourist": "Tourist",
+                "napping delegate": "Napping Delegate",
+                "journalist": "Journalist",
+                "secretary of state": "Secretary of State",
+                "speaker": "Speaker",
+                "secretary-general": "Secretary General",
+                "lobbyist": "Lobbyist"
+            },
+            "candy factory": {
+                "candy maker": "Candy Maker",
+                "pastry chef": "Pastry Chef",
+                "visitor": "Visitor",
+                "taster": "Taster",
+                "truffle maker": "Truffle Maker",
+                "supply worker": "Supply Worker",
+                "packager": "Packager",
+                "inspector": "Inspector",
+                "machine operator": "Machine Operator",
+                "janitor": "Janitor"
+            },
+            "subway": {
+                "tourist": "Tourist",
+                "subway operator": "Subway Operator",
+                "ticket inspector": "Ticket Inspector",
+                "pregnant lady": "Pregnant Lady",
+                "pickpocket": "Pickpocket",
+                "cleaner": "Cleaner",
+                "businessman": "Businessman",
+                "ticket seller": "Ticket Seller",
+                "old lady": "Old Lady",
+                "blind man": "Blind Man"
+            },
+            "coal mine": {
+                "safety inspector": "Safety Inspector",
+                "miner": "Miner",
+                "overseer": "Overseer",
+                "dump truck operator": "Dump Truck Operator",
+                "driller": "Driller",
+                "coordinator": "Coordinator",
+                "blasting engineer": "Blasting Engineer",
+                "solid waste engineer": "Solid Waste Engineer",
+                "worker": "Worker"
+            },
+            "rock concert": {
+                "dancer": "Dancer",
+                "singer": "Singer",
+                "fan": "Fan",
+                "guitarist": "Guitarist",
+                "drummer": "Drummer",
+                "roadie": "Roadie",
+                "stage diver": "Stage Diver",
+                "security guard": "Security Guard",
+                "bassist": "Bassist",
+                "sound technician": "Sound Technician"
+            },
+            "jazz club": {
+                "bouncer": "Bouncer",
+                "drummer": "Drummer",
+                "pianist": "Pianist",
+                "saxophonist": "Saxophonist",
+                "singer": "Singer",
+                "jazz fanatic": "Jazz Fanatic",
+                "dancer": "Dancer",
+                "barman": "Barman",
+                "vip": "VIP",
+                "waiter": "Waiter"
+            },
+            "wedding": {
+                "ring bearer": "Ring Bearer",
+                "groom": "Groom",
+                "bride": "Bride",
+                "officiant": "Officiant",
+                "photographer": "Photographer",
+                "flower girl": "Flower Girl",
+                "father of the bride": "Father of the Bride",
+                "wedding crasher": "Wedding Crasher",
+                "best man": "Best Man",
+                "maid of honor": "Maid of Honor",
+                "relative": "Relative"
+            },
+            "gas station": {
+                "car enthusiast": "Car Enthusiast",
+                "service attendant": "Service Attendant",
+                "shopkeeper": "Shopkeeper",
+                "customer": "Customer",
+                "car washer": "Car Washer",
+                "cashier": "Cashier",
+                "climate change activist": "Climate Change Activist",
+                "manager": "Manager"
+            },
+            "harbor docks": {
+                "loader": "Loader",
+                "salty old pirate": "Salty Old Pirate",
+                "captain": "Captain",
+                "sailor": "Sailor",
+                "fisherman": "Fisherman",
+                "exporter": "Exporter",
+                "cargo overseer": "Cargo Overseer",
+                "cargo inspector": "Cargo Inspector",
+                "smuggler": "Smuggler"
+            },
+            "sightseeing bus": {
+                "old man": "Old Man",
+                "lone tourist": "Lone Tourist",
+                "driver": "Driver",
+                "annoying child": "Annoying Child",
+                "tourist": "Tourist",
+                "tour guide": "Tour Guide",
+                "photographer": "Photographer",
+                "lost person": "Lost Person"
+            },
+            "petrska_kabinet" : {
+                "petrska" : "Petrska",
+                "svarcka" : "Švarcka",
+                "student" : "Student němčiny",
+                "jiri" : "Jiří s měkkým",
+                "peta" : "Péťa Solanských",
+                "aah" : "Matě-aah"
+            },
+            "svestkarna" : {
+                "sef" : "Velitel švestek",
+                "zadrzeny" : "Zadržený",
+                "svestka" : "Švestka",
+                "konzultant" : "Konzultant",
+                "kid" : "Ztracené dítě",
+                "recepcni" : "Recepční"
+            },
+            "koncentrak" : {
+                "sef" : "Velitel tábora",
+                "zid" : "Žid",
+                "esesak" : "Esesák",
+                "mengele" : "Doktor Mengele",
+                "cigan" : "Cikán",
+                "strazny" : "Strážný"
+            },
+            "ghetto" : {
+                "sef" : "Šéf gangu",
+                "gangster" : "Gangster",
+                "obyvatel" : "Obyvatel ghetta",
+                "kolemjdouci" : "Náhodný kolemjdoucí",
+                "dealer" : "Dealer"
+            },
+            "tibetsky_chram" : {
+                "mnich" : "Mnich",
+                "sileny_marek" : "Šílený Marek",
+                "socha_buddha" : "Socha Buddhy",
+                "sef" : "Vrchní mnich",
+                "turista" : "Turista",
+                "vojak" : "Čínský voják"
+            },
+            "vezeni" : {
+                "vezen" : "Vězeň",
+                "bachar" : "Bachař",
+                "sef" : "Vedoucí věznice",
+                "navstevnik" : "Návštěvník",
+                "vrah" : "Vrah",
+                "ridic" : "Řidič transportu"
+            },
+            "helikoptera" : {
+                "pilot" : "Pilot",
+                "kopilot" : "Kopilot",
+                "strelec" : "Střelec",
+                "prepravovany" : "Přepravovaný"
+            },
+            "torpedoborec" : {
+                "kapitan" : "Kapitán",
+                "dustojnik" : "1. důstojník",
+                "kormidelnik" : "Kormidelník",
+                "mechanik" : "Mechanik",
+                "dustojnik_zbranovy" : "Zbraňový důstojník",
+                "namornik" : "Námořník"
+            },
+            "prazsky_hrad" : {
+                "milos" : "Míla Zemanů",
+                "straz" : "Hradní stráž",
+                "ovco" : "Jirka Ovčáčků",
+                "turista" : "Turista",
+                "uklizecka" : "Uklizečka",
+                "asistent" : "Asistent"
+            },
+            "tramvaj" : {
+                "ridic" : "Řidič tramvaje",
+                "cestujici" : "Klidný cestující",
+                "kid" : "Uřvané dítě",
+                "pobuda" : "Smradlavý pobuda",
+                "neplatic" : "Neplatič",
+                "kontrolor" : "Kontrolor"
+            },
+            "mesic" : {
+                "astronaut" : "Astronaut",
+                "et" : "Mimozemšťan",
+                "pilot" : "Pilot raketoplánu"
+            },
+            "detske_hriste" : {
+                "dite_houpacka" : "Dítě na houpačce",
+                "dite_ubrecene" : "Ubrečené dítě",
+                "agresor" : "Agresor",
+                "chuligan" : "Chuligán",
+                "matka" : "Matka",
+                "otec" : "Otec"
+            },
+            "petrska_sklep" : {
+                "student" : "Nezvedný student",
+                "obet" : "Petrsčina oběť",
+                "stroj" : "Šukací stroj"
+            },
+            "metal_koncert" : {
+                "kuk" : "Filip Kuk",
+                "zpevak" : "Zpěvák",
+                "kytarista" : "Kytarista",
+                "fanousek" : "Fanoušek",
+                "security" : "Security",
+                "poradatel" : "Pořadatel"
+            },
+            "lanzhot" : {
+                "zilien" : "Žilién",
+                "domaci" : "Paní domácí",
+                "evana" : "Evana",
+                "cankyr" : "Standa Čankýř",
+                "turista" : "Turista",
+                "domaci_manzel" : "Manžel paní domácí"
+            },
+            "nadrazi" : {
+                "cestujici_zmateny" : "Zmatený cestující",
+                "prodejce" : "Prodejce jízdenek",
+                "pruvodci" : "Nevrlý průvodčí",
+                "cestujici" : "Cestující",
+                "duchodce" : "Důchodce na výletě",
+                "udrzbar" : "Údržbář"
+            },
+            "vyzkumna_stanice" : {
+                "vedec" : "Vědec",
+                "sef" : "Velitel stanice",
+                "komunikacni_expert" : "Komunikační expert",
+                "zdravotnik" : "Zdravotník",
+                "ridic" : "Řidič ponorky",
+                "technik" : "Technik"
+            },
+            "bordel" : {
+                "kurva" : "Kurva",
+                "skopec" : "Skopčí",
+                "navstevnik" : "Návštěvník",
+                "barman" : "Barman",
+                "boss" : "Boss",
+                "vyhazovac" : "Vyhazovač"
+            },
+            "opera" : {
+                "pevec" : "Operní pěvec",
+                "divak" : "Divák",
+                "divak_spici" : "Spící divák",
+                "vip" : "VIP",
+                "tanecnik" : "Tanečník",
+                "udrzbar" : "Údržbář"
+            },
+            "puph" : {
+                "opilec" : "Opilec"
+            },
+            "dzihadisti" : {
+                "muhammad" : "Muhammad",
+                "abdul" : "Abdul",
+                "ahmet" : "Ahmet",
+                "hamza" : "Hamza",
+                "mahmoud" : "Mahmoud",
+                "hassan" : "Hassan"
+            },
+            "mesita" : {
+                "verici" : "Věřící",
+                "dzihadista" : "Džihádista",
+                "imam" : "Imám",
+                "udrzbar" : "Údržbář"
+            },
+            "autobazar" : {
+                "prodejce" : "Prodejce",
+                "zakaznik" : "Zákazník",
+                "kolemjdouci" : "Náhodný kolemjdoucí",
+                "zlodej" : "Zloděj",
+                "opravar" : "Opravář"
+            },
+            "nakupni_centrum" : {
+                "prodavacka" : "Prodavačka",
+                "dodavatel" : "Dodavatel",
+                "brigadnik" : "Brigádník"
+            }
+        }
+    }
+}
