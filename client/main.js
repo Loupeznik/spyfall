@@ -1,5 +1,6 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+//import Darkmode from 'darkmode-js';
 
 import './spyfall.html';
 
@@ -240,11 +241,8 @@ Template.main.helpers({
   }
 });
 
-/*Template.footer.helpers({
-  languages: getLanguageList
-})
 
-
+/*
 Template.footer.events({
   'click .btn-set-language': function (event) {
     var language = $(event.target).data('language');

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/normalize.css" type="text/css">
   <link rel="stylesheet" href="css/skeleton.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  
 </head>
 
 <body></body>
@@ -197,7 +198,7 @@
             Použít původní lokace
         </label>
         <label for="round-minutes">
-        Round Length (in minutes): <input class="round-length" type="text" id="round-minutes" name="roundMinutes" value="8" size="2" maxlength="2">
+        Délka kola: <input class="round-length" type="text" id="round-minutes" name="roundMinutes" value="8" size="2" maxlength="2">
         </label>
       <div class="button-container">
         <input type="submit" value='{{_ "ui.create game" }}'>
@@ -253,6 +254,10 @@
 
   <div class="footer">
     {{{_ "ui.footer" }}}
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.0/lib/darkmode-js.min.js"></script>
+    <script>
+      new Darkmode().showWidget();
+    </script>
     <br>
     <a href="https://github.com/Loupeznik/spyfall" target="_blank">Github fork původního Spyfallu</a>
     <br>
