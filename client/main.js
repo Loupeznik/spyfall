@@ -1,6 +1,6 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
-//import Darkmode from 'darkmode-js';
+//import Darkmode from 'darkmode-js'; //nefachá v spyfall.html -> řešit jinak
 
 import './spyfall.html';
 
